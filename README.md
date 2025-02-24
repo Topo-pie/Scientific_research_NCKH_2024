@@ -1,0 +1,2 @@
+                        BUILDING A PRICE SUGGESTION MODEL FOR NEWCOMERS ONE-COMMERCE PLATFORMS
+                        
