@@ -5,12 +5,18 @@ I. About:
 
 II. Data:
 
-  The study is based on Bright Data's user research dataset collected from the API of Shopee e-commerce platform (https://github.com/luminati-io/Shopee-dataset-samples)
+The study is based on Bright Data's user research dataset collected from the API of Shopee e-commerce platform (https://github.com/luminati-io/Shopee-dataset-samples)
+
 A Shopee dataset sample of over 1000 products. Dataset was extracted using the Bright Data API.
+
 The dataset includes 898 rows and 17 data fields. The variables used in the model are described in Table 1.
+
 Feature -------- Description
+
 product_id:    	Unique identifier for products on Shopee. 
-product_name:  	Product' Name
+
+product_name:  	Product's Name
+
 variation:    	Information about product variations
 category_id:  	Product category classification identifier
 brand:        	Product branding strongly influences purchasing decisions due to brand recognition and customer trust. 
