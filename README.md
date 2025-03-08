@@ -29,9 +29,11 @@ price_to_sold_ratio:	The price-volume ratio (price/volume) is an index that comb
 III.Theoretical basis:
  
  The study uses the models: Simple Regressor (SR), Grid Search (GS), Stacked Regressor, XGBoost and Neural Network to suggest product prices based on Shopee data collected from APIs. Because it can be said that Shopee is one of the most popular e-commerce platforms in Southeast Asia and Vietnam, with a large transaction volume and rich database. In addition, the Stacked Regressor model combines many models such as XGBoost and Neural Network to achieve the highest accuracy in suggesting selling prices for high-revenue products on Shopee.
+
 IV: Result:
 
   The three models Neural Network (3 hidden layers), Stacked Regressor and Grid Search all give better forecasting results than the other three models. The Neural Network (3 hidden layers) model gives the most accurate forecasting results with test_mae of 1.602, the best among the models without overfitting with moderate configuration (with 3 hidden layers with minimal structure). Stacked Regressor and Grid Search provide stable performance, suitable when technical fine-tuning is needed. It is possible that some independent variables in the model are highly correlated with each other, affecting the performance of the Neural Network with 10 hidden layers, Simple Regressor, Neural Network with 5 hidden layers. Therefore, the Neural Network (3 hidden layers) model can be used to suggest product prices in the next period.
+
 IV. Conclude:
 
   Machine learning models have been shown to be more effective than traditional statistical models in many different fields, thanks to their superior advantages of not requiring strict data conditions and relationships between independent variables and dependent variables. As a result, machine learning models have wider and more flexible application capabilities. In this study, the Neural Network model with three hidden layers outperformed the Stacked Regressor and Grid Search models in suggesting product prices on the Shopee platform. At the same time, the study identified factors affecting product prices by assessing the importance of features in the regression model. This brings great practical value to stores and e-commerce platforms, helping them accurately assess product price fluctuations and build more effective business strategies.
