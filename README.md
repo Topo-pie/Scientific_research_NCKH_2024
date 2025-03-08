@@ -18,18 +18,31 @@ product_id:    	Unique identifier for products on Shopee.
 product_name:  	Product's Name
 
 variation:    	Information about product variations
+
 category_id:  	Product category classification identifier
+
 brand:        	Product branding strongly influences purchasing decisions due to brand recognition and customer trust. 
+
 rating:        	Average customer rating for a product, an important indicator of product quality.
+
 initial_price: 	The original or starting price of the product.	
+
 final_price:  	The current price or final price of the product after any discounts or promotions (which is the target value of the model).	
+
 currency:      	Currency type.
+
 sold:          	The number of units sold, which indicates the popularity of the product, plays an important role in predicting price.
+
 status:        	product status
+
 image:        	Product image.
+
 flash_sale:    	Product discount.
+
 vouchers:    	  Coupon.
+
 category:      	product category
+
 price_to_sold_ratio:	The price-volume ratio (price/volume) is an index that combines price and sales volume, helping to evaluate the value of a product in the market.
 
 III.Theoretical basis:
