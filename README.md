@@ -2,6 +2,7 @@
 I. About:                                  
   
   In the context of an increasingly competitive e-commerce market, optimizing product prices has become a crucial factor. This study proposes a product price suggestion model using Neural Networks, XGBoost, Stacked Regressor, Grid Search, and Simple Regressor models. The results show that the Neural Network machine learning model with 3 hidden layers, XGBoost, Stacked Regressor, Grid Search, and Simple Regressor all yield good forecasting results and performance. The important input parameters for suggesting product prices on e-commerce platforms through machine learning models include brand, rating index, number of products sold index, listed price index, and original price index.        
+
 II. Data:
 
   The study is based on Bright Data's user research dataset collected from the API of Shopee e-commerce platform (https://github.com/luminati-io/Shopee-dataset-samples)
