@@ -49,7 +49,17 @@ III.Theoretical basis:
  
  The study uses the models: Simple Regressor (SR), Grid Search (GS), Stacked Regressor, XGBoost and Neural Network to suggest product prices based on Shopee data collected from APIs. Because it can be said that Shopee is one of the most popular e-commerce platforms in Southeast Asia and Vietnam, with a large transaction volume and rich database. In addition, the Stacked Regressor model combines many models such as XGBoost and Neural Network to achieve the highest accuracy in suggesting selling prices for high-revenue products on Shopee.
 
-IV: Result:
+IV. Installation $ Requirements:
+ - Numpy
+ - Pandas
+ - Matplotlib
+ - Seaborn
+ - Scikit - learn for modelling
+ - XGBoost for XGBRegressor 
+ - Catboost for CatboostRegressor
+ - Tensorflow 
+
+IV. Result:
 
   The three models Neural Network (3 hidden layers), Stacked Regressor and Grid Search all give better forecasting results than the other three models. The Neural Network (3 hidden layers) model gives the most accurate forecasting results with test_mae of 1.602, the best among the models without overfitting with moderate configuration (with 3 hidden layers with minimal structure). Stacked Regressor and Grid Search provide stable performance, suitable when technical fine-tuning is needed. It is possible that some independent variables in the model are highly correlated with each other, affecting the performance of the Neural Network with 10 hidden layers, Simple Regressor, Neural Network with 5 hidden layers. Therefore, the Neural Network (3 hidden layers) model can be used to suggest product prices in the next period.
 
